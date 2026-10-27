@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー｜タスクバー柴</title>
+<link rel="icon" href="shiba.png">
+<style>
+  :root { --bg: #fbf6ec; --card: #fffdf8; --ink: #2b2b33; --muted: #6b6560; --line: #e6dccb; --accent: #b4501e; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1d1f26; --card: #262933; --ink: #ecebe6; --muted: #a8a49c; --line: #3a3e4a; --accent: #f0a46a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.8 system-ui, "Segoe UI", "Yu Gothic UI", "Hiragino Sans", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+  header img { width: 72px; height: 72px; image-rendering: pixelated; }
+  header .name { font-size: 22px; font-weight: 700; line-height: 1.3; }
+  header .name small { display: block; font-size: 14px; font-weight: 400; color: var(--muted); }
+  nav { margin-left: auto; font-size: 14px; }
+  article { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 24px 24px; }
+  h1 { font-size: 26px; margin: 20px 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  ul { padding-left: 1.3em; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  footer { margin-top: 24px; font-size: 13px; color: var(--muted); text-align: center; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <a href="./"><img src="shiba.png" alt=""></a>
+  <div class="name">タスクバー柴<small>Taskbar Shiba</small></div>
+  <nav><a href="privacy-en.html">English</a></nav>
+</header>
+<article>
+<h1>プライバシーポリシー</h1>
+<p>最終更新日：2026年10月27日</p>
+<p>「タスクバー柴」（以下、本アプリ）は、利用者の個人情報を収集・送信しません。<br>（<a href="privacy-en.html">English version</a>）</p>
+<h2>本アプリが使う情報</h2>
+<ul>
+<li><strong>犬のデータ</strong>（名前、毛色、なかよし度、性格など）：お使いのPCの中だけに保存します。外部には送りません。</li>
+<li><strong>PCの使い方</strong>：犬の性格を変えるために、最後に操作してからの時間と、音楽が再生中かどうかだけをPCの中で確認します。内容（キー入力、曲名、開いている画面など）は記録も送信もしません。</li>
+<li><strong>音の大きさ</strong>：音楽に合わせて犬が踊るために、Windows の音量ミキサーと同じ「再生中の音の大きさ」（0〜1 の数値1つ）を読み取ります。音そのものは録音も保存も送信もしません。マイクは使いません。</li>
+<li><strong>天気</strong>：設定で地域を選んだ場合だけ、天気予報サービス Open-Meteo（<a href="https://open-meteo.com/">https://open-meteo.com/</a>）から天気を取得します（約30分ごと）。送るのは選んだ地域の緯度・経度だけです。PCの位置情報は使いません。ほかの町を検索するときは、入力した町の名前を Open-Meteo の地名検索に送ります。地域を選ばなければ、本アプリはインターネットに接続しません。天気データは Open-Meteo.com（CC BY 4.0）によるものです。</li>
+<li><strong>カメラ・マイクの使用状況</strong>：通話や会議の邪魔をしないよう、「カメラやマイクがいま使われているか」だけを Windows の記録から確認します（設定でオフにできます）。映像や音声は一切読み取りません。</li>
+<li><strong>CPU・電池・前面の窓</strong>：犬の様子を変えるため、CPU の使用率、電池の残量、前面にある窓の位置と大きさを PC の中で確認します。窓の中身は読み取りません。</li>
+<li><strong>写真と GIF</strong>：「写真を撮る」「GIFを撮る」で作った画像は、ピクチャフォルダの TaskbarShiba に保存されます。画面のキャプチャではなく、犬の絵から作ります。</li>
+</ul>
+<p>犬のデータは Windows がアプリごとに用意する場所に保存され、アプリをアンインストールすると消えます。</p>
+<h2>おでかけ機能</h2>
+<p>「おでかけカード」のコードには、犬の名前・毛色・なかよしレベル、発行日と有効期限、および利用者が選んだ場合に限り性格と飼い主のニックネームが入ります。コードを誰に渡すかは利用者が決めます。本アプリがコードをどこかへ送ることはありません。</p>
+<p>受け取ったコードやカードの画像は、PCの中だけで読み取ります。読み込んだ画像は保存しません。遊びに来た犬の名前・飼い主のニックネーム・毛色・日付は、来客ノートとしてPCの中だけに保存されます。自分の犬のコードを見分けるため、作ったコードもPCの中に保存します。</p>
+<h2>問い合わせ</h2>
+<p>本アプリやこのポリシーについてのお問い合わせは、GitHub の Issues（<a href="https://github.com/berukichi/shiba-taskbar-site/issues">https://github.com/berukichi/shiba-taskbar-site/issues</a>）で受け付けています。</p>
+
+</article>
+<footer>© 2026 berukichi</footer>
+</main>
+</body>
+</html>
